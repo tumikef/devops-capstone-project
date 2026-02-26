@@ -9,10 +9,7 @@ from flask import Flask
 from service import config
 from service.common import log_handlers
 from flask_talisman import Talisman
-<<<<<<< HEAD
 from flask_cors import CORS
-=======
->>>>>>> origin/talisman
 
 # Create Flask application
 app = Flask(__name__)
